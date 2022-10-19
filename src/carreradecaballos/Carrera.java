@@ -1,6 +1,6 @@
 package carreradecaballos;
 
-import java.awt.EventQueue;
+import java.awt.*;
 
 import javax.swing.JFrame;
 import javax.swing.JProgressBar;
@@ -91,6 +91,7 @@ public class Carrera {
      * Launch the application.
      */
     public static void main(String[] args) {
+        Menu.lanzador(args);
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
